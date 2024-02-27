@@ -72,5 +72,5 @@ CREATE TABLE battle_result (
     pokemon_id_1 INT NOT NULL,
     pokemon_id_2 INT NOT NULL,
     winner_id INT NULL,
-    result_memo VARCHAR(30)
+    result_memo VARCHAR(50)
 );
