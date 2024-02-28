@@ -30,41 +30,20 @@ VALUES
     ('Hyper Beam', 'Normal', 'Special', '150');
 
 -- Poke Dex 더미 데이터 삽입
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (1, 'Bulbasaur', 'Grass', 45, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (2, 'Charmander', 'Fire', 39, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (3, 'Squirtle', 'Water', 44, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (4, 'Pikachu', 'Electric', 35, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (5, 'Jigglypuff', 'Normal', 115, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (6, 'Geodude', 'Rock', 40, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (7, 'Gastly', 'Ghost', 30, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (8, 'Onix', 'Rock', 35, 1, NULL, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
+INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary) VALUES
+    (1, 'Bulbasaur', 'Grass', 45, 1, NULL, FALSE),
+    (2, 'Charmander', 'Fire', 39, 1, NULL, FALSE),
+    (3, 'Squirtle', 'Water', 44, 1, NULL, FALSE),
+    (4, 'Pikachu', 'Electric', 35, 1, NULL, FALSE),
+    (5, 'Jigglypuff', 'Normal', 115, 1, NULL, FALSE),
+    (6, 'Geodude', 'Rock', 40, 1, NULL, FALSE),
+    (7, 'Gastly', 'Ghost', 30, 1, NULL, FALSE),
+    (8, 'Onix', 'Rock', 35, 1, NULL, FALSE),
     (9, 'Eevee', 'Normal', 55, 1, NULL, FALSE);
 INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
 VALUES
-    (10, 'Vaporeon', 'Water', 130, 2, 9, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
-    (11, 'Jolteon', 'Electric', 65, 2, 9, FALSE);
-INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
-VALUES
+    (10, 'Vaporeon', 'Water', 130, 2, 9, FALSE),
+    (11, 'Jolteon', 'Electric', 65, 2, 9, FALSE),
     (12, 'Flareon', 'Fire', 65, 2, 9, FALSE);
 INSERT INTO poke_dex (monster_id, monster_name, monster_type, max_hp, evolution_stage, evolves_from, is_legendary)
 VALUES
